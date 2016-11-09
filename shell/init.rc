@@ -1,0 +1,7 @@
+if [ "$(basename $SHELL)"="zsh" ]; then
+    source $SHELL_PATH/zsh/init.sh
+    echo "detect zsh..."
+else
+    source $SHELL_PATH/bash/init.sh
+    echo "detect bash..."
+fi
