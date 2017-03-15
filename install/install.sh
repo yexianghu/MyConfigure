@@ -52,6 +52,8 @@ sudo apt-get install -y intellij-idea-community
 
 sudo apt-get install -y pycharm-community
 
+sudo apt-get install -y polipo
+
 #sudo apt-get install libffi-dev
 
 #sudo apt-get install libssl-dev
