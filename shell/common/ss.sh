@@ -1,2 +1,6 @@
 alias startss="sudo sslocal -c $SHELL_PATH/data/ss.json -d start -k $SS_PW && sudo nohup polipo -c $SHELL_PATH/data/polipo.config > /dev/null 2>&1 &"
 alias stopss="sudo sslocal -c $SHELL_PATH/data/ss.json -d stop"
+alias enableProxy="export http_proxy=http://127.0.0.1:9091/ && export https_proxy=http://127.0.0.1:9091/"
+alias disableProxy="export http_proxy= && export https_proxy="
+alias startProxy="sudo privoxy /usr/local/etc/privoxy/config && enableProxy"
+alias stopProxy="sudo killall privoxy && disableProxy"
