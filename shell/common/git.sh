@@ -1,8 +1,8 @@
 ###------------------------------------   git setting begin ----------------------------------###
 
 #Identity
-git config --global user.name "xianghuy"
-git config --global user.email xianghuy@opera.com
+git config --global user.name "yexianghu"
+git config --global user.email yexianghu@xiaomi.com
 #editor
 git config --global core.editor vim
 
@@ -13,10 +13,10 @@ git config --global color.ui true
 git config --global core.whitespace trailing-space,space-before-tab,indent-with-non-tab
 
 # alias
-#git config --global alias.st status
-#git config --global alias.br branch
-#git config --global alias.co checkout
-#git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.br branch
+git config --global alias.co checkout
+git config --global alias.ci commit
 
 
 # --> git prompt
@@ -29,8 +29,8 @@ git config --global core.whitespace trailing-space,space-before-tab,indent-with-
 
 
 # -->git diff
-git config --global diff.tool bcompare
-git config --global merge.tool bcompare
+git config --global diff.tool meld
+git config --global merge.tool meld
 git config --global difftool.prompt false
 git config --global mergetool.prompt false
 

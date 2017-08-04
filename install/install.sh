@@ -4,33 +4,33 @@
 #sudo apt-get install gnome
 
 #PPA for synapse
-sudo apt-add-repository -y ppa:synapse-core/ppa 
+sudo apt-add-repository -y ppa:synapse-core/ppa
 
 #PPA for android studio
-sudo apt-add-repository -y ppa:paolorotolo/android-studio
+#sudo apt-add-repository -y ppa:paolorotolo/android-studio
 
 #PPA for oracle java
-sudo add-apt-repository -y ppa:webupd8team/java 
+#sudo add-apt-repository -y ppa:webupd8team/java
 
 #PPA for chrome
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+#wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+#sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 
 #PPA for intelliJ
-sudo add-apt-repository ppa:mystic-mirage/pycharm
-sudo apt-add-repository ppa:mmk2410/intellij-idea-community
+#sudo add-apt-repository -y ppa:mystic-mirage/pycharm
+#sudo apt-add-repository -y ppa:mmk2410/intellij-idea-community
 
 sudo apt-get update
 
 
 #install chrome
-sudo apt-get install -y google-chrome-stable
+#sudo apt-get install -y google-chrome-stable
 
 #install common tools
 sudo apt-get install -y vim guake emacs24 synapse gconf-editor git subversion gcolor2 kolourpaint4 virtualbox global wireshark samba curl ssh exfat-fuse exfat-utils
 
 #for java tool charm
-sudo apt-get install -y oracle-java7-installer ant gradle
+sudo apt-get install -y ant gradle
 
 #for android-studio
 sudo apt-get install -y android-studio
@@ -48,9 +48,9 @@ sudo apt-get install -y virtualenv
 
 sudo apt-get install -y virtualenvwrapper
 
-sudo apt-get install -y intellij-idea-community
+#sudo apt-get install -y intellij-idea-community
 
-sudo apt-get install -y pycharm-community
+#sudo apt-get install -y pycharm-community
 
 sudo apt-get install -y polipo
 
@@ -81,13 +81,13 @@ sudo apt-get install -y polipo
 mkdir -p ~/github
 
 # download bash config from github
-mkdir -p ~/.bash.d
-cd ~/github
-git clone https://github.com/yexianghu/yezi_bash.git
-ln -s ~/github/yezi_bash ~/.bash.d
-echo "source ~/.bash.d/all.sh" >> ~/.bashrc
-wget --no-check-certificate https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh -O ~/.git-prompt.sh
-source ~/.bashrc
+#mkdir -p ~/.bash.d
+#cd ~/github
+#git clone https://github.com/yexianghu/yezi_bash.git
+#ln -s ~/github/yezi_bash ~/.bash.d
+#echo "source ~/.bash.d/all.sh" >> ~/.bashrc
+#wget --no-check-certificate https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh -O ~/.git-prompt.sh
+#source ~/.bashrc
 
 
 #download emacs configure from github

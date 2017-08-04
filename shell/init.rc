@@ -1,4 +1,4 @@
-if [ "$(basename $SHELL)"="zsh" ]; then
+if [ "$(basename $SHELL)" = "zsh" ]; then
     source $SHELL_PATH/zsh/init.sh
     echo "detect zsh..."
 else
