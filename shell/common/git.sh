@@ -41,4 +41,11 @@ git_co_to_btsid() {
 
 alias gcot='git_co_to_btsid'
 
+git_commit_fixup() {
+    git commit --fixup="$1"
+}
+
+git_rebase_fixup() {
+    git rebase -i $1 --autosquash
+}
 ###------------------------------------ git setting end ----------------------------------###

@@ -15,3 +15,7 @@ alias next_build='./gradlew maxDebug'
 
 alias o12r="make clean && make all DEBUG=NO UI_DEBUG=NO TARGET_ARCHS=armv5 USE_MINI_PACKAGE_NAME=YES PRODUCT=oupeng REPACKAGE_APK=YES BETA=NO"
 alias o12b="make all USE_MINI_PACKAGE_NAME=YES BETA=NO && adb install -r bin/upload/oupeng-*-debug*.apk"
+
+alias cdclip="xclip -selection clipboard"
+
+alias fly='env http_proxy=http://fq.mioffice.cn:3128 https_proxy=http://fq.mioffice.cn:3128'
