@@ -33,10 +33,10 @@ sudo apt-get install -y vim guake emacs24 synapse gconf-editor git subversion gc
 sudo apt-get install -y ant gradle
 
 #for android-studio
-sudo apt-get install -y android-studio
+#sudo apt-get install -y android-studio
 
 #for eclipse
-sudo apt-get install -y eclipse
+#sudo apt-get install -y eclipse
 
 #install develop tools
 sudo apt-get install -y ccache swig3.0
@@ -52,7 +52,7 @@ sudo apt-get install -y virtualenvwrapper
 
 #sudo apt-get install -y pycharm-community
 
-sudo apt-get install -y polipo
+#sudo apt-get install -y polipo
 
 #sudo apt-get install libffi-dev
 

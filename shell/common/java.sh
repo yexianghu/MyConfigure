@@ -1,1 +1,1 @@
-JAVA_HOME=/usr/lib/jvm/java-7-oracle/
+JAVA_HOME=/usr/lib/jvm/java-8-oracle/

@@ -1,8 +1,8 @@
 ###------------------------------------   git setting begin ----------------------------------###
 
 #Identity
-git config --global user.name "yexianghu"
-git config --global user.email yexianghu@xiaomi.com
+git config --global user.name "shawn.ye"
+git config --global user.email shawn@htek.com
 #editor
 git config --global core.editor vim
 
@@ -20,12 +20,14 @@ git config --global alias.ci commit
 
 
 # --> git prompt
-#if [ -f ~/.git-prompt.sh ]; then
-#    source ~/.git-prompt.sh
-#    export PS1='\[\e]0;\w\a\]\n\[\033[01;32m\]\u@\h\[\033[01;34m\] \w$(__git_ps1 " (%s)")\n\[\033[1;$((31+3*!$?))m\]\$\[\033[00m\] '
-#else
-#    which git && echo wget --no-check-certificate https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh -O ~/.git-prompt.sh
-#fi
+if [ "$(basename $SHELL)" = "bash" ]; then
+    if [ -f ~/.git-prompt.sh ]; then
+        source ~/.git-prompt.sh
+        export PS1='\[\e]0;\w\a\]\n\[\033[01;32m\]\u@\h\[\033[01;34m\] \w$(__git_ps1 " (%s)")\n\[\033[1;$((31+3*!$?))m\]\$\[\033[00m\] '
+    else
+        which git && echo wget --no-check-certificate https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh -O ~/.git-prompt.sh
+    fi
+fi
 
 
 # -->git diff
