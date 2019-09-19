@@ -48,6 +48,8 @@ sudo apt-get install -y virtualenv
 
 sudo apt-get install -y virtualenvwrapper
 
+# use ag instead of grep
+sudo apt-get install -y silversearcher-ag
 #sudo apt-get install -y intellij-idea-community
 
 #sudo apt-get install -y pycharm-community
