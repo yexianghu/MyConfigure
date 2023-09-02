@@ -1,8 +1,8 @@
 ###------------------------------------   git setting begin ----------------------------------###
 
 #Identity
-git config --global user.name "shawn.ye"
-git config --global user.email shawn@htek.com
+#git config --global user.name "shawn.ye"
+#git config --global user.email shawn@htek.com
 #editor
 git config --global core.editor vim
 

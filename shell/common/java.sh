@@ -1,1 +1,1 @@
-JAVA_HOME=/usr/lib/jvm/java-8-oracle/
+JAVA_HOME=`/usr/libexec/java_home -v 11`
