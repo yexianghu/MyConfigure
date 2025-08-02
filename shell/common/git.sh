@@ -36,6 +36,7 @@ git config --global merge.tool meld
 git config --global difftool.prompt false
 git config --global mergetool.prompt false
 
+export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'
 # quick co
 git_co_to_btsid() {
 	git co taskbranch/TLJ-$1
