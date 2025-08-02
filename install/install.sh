@@ -27,10 +27,7 @@ sudo apt-get update
 #sudo apt-get install -y google-chrome-stable
 
 #install common tools
-sudo apt-get install -y vim guake emacs24 synapse gconf-editor git subversion gcolor2 kolourpaint4 virtualbox global wireshark samba curl ssh exfat-fuse exfat-utils
-
-#for java tool charm
-sudo apt-get install -y ant gradle
+sudo apt-get install -y vim guake synapse gconf-editor git subversion gcolor2 kolourpaint4 wireshark samba curl ssh exfat-fuse exfat-utils ant gradle
 
 #for android-studio
 #sudo apt-get install -y android-studio
@@ -49,7 +46,7 @@ sudo apt-get install -y virtualenv
 sudo apt-get install -y virtualenvwrapper
 
 # use ag instead of grep
-sudo apt-get install -y silversearcher-ag
+# sudo apt-get install -y silversearcher-ag
 #sudo apt-get install -y intellij-idea-community
 
 #sudo apt-get install -y pycharm-community
@@ -93,17 +90,17 @@ mkdir -p ~/github
 
 
 #download emacs configure from github
-cd ~/github
-git clone https://github.com/yexianghu/yezi_emacs_configure.git
-cd ~/github/yezi_emacs_configure
-git checkout -b new_dev origin/new_dev
-ln -s ~/github/yezi_emacs_configure ~/.emacs.d
+# cd ~/github
+# git clone https://github.com/yexianghu/yezi_emacs_configure.git
+# cd ~/github/yezi_emacs_configure
+# git checkout -b new_dev origin/new_dev
+# ln -s ~/github/yezi_emacs_configure ~/.emacs.d
 
 
 #download bcompare
 # http://www.scootersoftware.com/download.php
 
 #download git-diffall
-cd ~/github
-git clone https://github.com/thenigan/git-diffall.git
-sudo cp /home/yezi/github/git-diffall/git-diffall $(git --exec-path)
+# cd ~/github
+# git clone https://github.com/thenigan/git-diffall.git
+# sudo cp /home/yezi/github/git-diffall/git-diffall $(git --exec-path)
