@@ -10,4 +10,4 @@ alias cdclip="xclip -selection clipboard"
 #alias fly='env http_proxy=http://fq.mioffice.cn:3128 https_proxy=http://fq.mioffice.cn:3128'
 alias upload='repo upload --cbr .'
 alias startHttpServer='python3 -m http.server --bind 0.0.0.0 80'
-alias fly='env https_proxy=https://fly.phus.lu all_proxy=https://fly.phus.lu http_proxy=https://fly.phus.lu'
+alias flyua='env https_proxy=https://yxh:123456@ua.apply.run:8444 http_proxy=https://yxh:123456@ua.apply.run:8444 all_proxy=https://yxh:123456@ua.apply.run:8444'
